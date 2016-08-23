@@ -1,1 +1,63 @@
 /* Styles for the Google home page */
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+input, button {
+    /*-webkit-appearance: none;*/
+}
+
+.container {
+    width: 700px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 89px;
+}
+
+.search-container {
+    border: 1px solid red;
+    max-width: 484px;
+    margin: 0 auto;
+    height: 38px;
+}
+
+.search-container input {
+    font: 16px arial,sans-serif;
+    line-height: 26px !important;
+    height: 26px !important;
+    width: 96%;
+    padding: 9px 2% 0;
+    margin: 0;
+    border: 0;
+}
+
+.logo {
+    margin-bottom: 36px;
+    margin-top: 89px;
+}
+
+.search-buttons button {
+    height: 36px;
+    line-height: 27px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.search-buttons {
+    padding-top: 18px;
+}
