@@ -24,6 +24,17 @@ footer {
     line-height: 40px;
 }
 
+header {
+}
+
+header:after {
+    content: " ";
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
+
 .container {
     width: 700px;
     text-align: center;
