@@ -25,6 +25,8 @@ footer {
 }
 
 header {
+    margin-top: 10px;
+    line-height: 32px;
 }
 
 header:after {
@@ -110,4 +112,12 @@ header:after {
 .right-nav {
     float: right;
     margin-right: 27px;
+}
+
+.profile {
+    border-radius: 50%;
+    display: block;
+    height: 32px;
+    width: 32px;
+    background-image: url("https://lh3.googleusercontent.com/-oVLZXKdU7rE/AAAAAAAAAAI/AAAAAAAAAAA/AGNl-Or5CYp8bV9borEiblgxmJH7i464IA/s32-c-mo/photo.jpg")
 }
